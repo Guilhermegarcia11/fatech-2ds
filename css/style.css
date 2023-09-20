@@ -70,13 +70,17 @@ a{
     transition: 0.3s;
 }
 
-.btnBlack {
+.btnBlack,.btnBlue {
     color: #FCFBFB;
     background-color: #1a1a1a;
     font-size: 30px;
     text-align: center;
     display: inline-block;
     padding: 10px 20px;
+    font-size: 900;
+}
+.btnBlue{
+    background-color: blue;
 }
 .maisAtracoes{
     text-align: center;
@@ -120,6 +124,14 @@ a{
 .projeto2{
     background-image: url('../img/3d.jpg');
 }
+
+.projeto3{
+    background-image: url('../img/games.jpg');
+}
+
+.projeto4{
+    background-image: url('../img/drone.jpg');
+}
 .projetos{
     background-size: cover;
     width: 100%;
@@ -136,4 +148,13 @@ a{
 }
 .both{
     clear: both;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+}
+.center{
+    text-align: center;
 }
